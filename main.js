@@ -33,7 +33,7 @@ console.log(count);
 for (i = 0; i < count.length; i++) {
   div = document.createElement("div");
 
-  div.innerHTML = count[i];
+  div.innerHTML = [i] + ": " + count[i];
   div.style.width = count[i] / 10 + "%";
   div.style.backgroundColor = "orange";
   div.className = i + "bar";
