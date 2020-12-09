@@ -30,7 +30,7 @@ for (i = 0; i < 1000; i++) {
 rollPairOfDice();
 console.log(count);
 
-for (i = 0; i < count.length; i++) {
+for (i = 2; i < count.length; i++) {
   div = document.createElement("div");
 
   div.innerHTML = [i] + ": " + count[i];
